@@ -1,0 +1,120 @@
+div {
+    font-family: 'Poppins', sans-serif;    
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;    
+}
+
+.div-header img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 1rem;
+}
+
+.div-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.div-header button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #5b2be0;
+    color: white; 
+}
+
+.div-header button:hover {
+    transform: translateY(-3px);
+    border-color: #5b2be0;
+    box-shadow: 0 8px 20px rgba(91, 43, 224, 0.2);
+}
+
+.div-search {    
+    display: flex;    
+    justify-content: end;
+    gap: 2rem;        
+}
+
+.div-search button {
+    border: none;
+    background-color: rgb(240, 238, 238);
+    Padding: 15px;
+    border-radius: 10px;
+}
+
+.div-one-search {    
+    width: 75%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-one-search input{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    background-color: rgb(240, 238, 238);
+    color: gray;
+}
+
+.div-one-search button {            
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #5b2be0;
+    color: white; 
+}
+
+.div-buttons {
+    display: flex;
+    gap: 1px;
+}
+
+.div-buttons button:hover {
+    transform: translateY(-3px);
+    border-color:  rgb(240, 238, 238);;
+    box-shadow: 0 8px 20px rgba(68, 61, 86, 0.2);
+}
+
+.div-products {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.table-products {
+    border-collapse: collapse; 
+    border: 1px solid lightgray;       
+}
+
+.table-products thead {
+    background-color: rgb(240, 238, 238);        
+}
+
+.table-products th {
+    padding: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.table-products td {
+    padding: 15px;
+    font-size: 0.7rem;            
+    border: 1px solid lightgray;            
+}
+
+.image-product {
+    height: 30px;
+    width: 30px;
+}
+
