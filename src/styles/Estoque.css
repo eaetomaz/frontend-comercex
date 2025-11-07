@@ -118,3 +118,98 @@ div {
     width: 30px;
 }
 
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+
+.modal {        
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    background-color:  white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(91, 43, 224, 0.2);
+}
+
+.modal h7 {
+    font-weight: bold;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+
+.modal button {    
+    border: none;
+    outline: none;                    
+    color: white;
+    border-radius: 5px;
+    margin-left: 2px;    
+    padding: 10px;
+}
+
+.btn-confirm {
+    background-color: green;
+}
+
+.btn-confirm:hover {
+    transform: translateY(-3px);
+    border-color: #45a12b;
+    box-shadow: 0 8px 20px rgba(91, 43, 224, 0.2);
+}
+
+.btn-cancel {
+    background-color: rgb(171, 20, 20);
+}
+
+.btn-cancel:hover {
+    transform: translateY(-3px);
+    border-color: #a12f2b;
+    box-shadow: 0 8px 20px rgba(91, 43, 224, 0.2);
+}
+
+.modal-cadastro {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(91, 43, 224, 0.2);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+}
+
+.data {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.data input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border-radius: 6px;
+}
